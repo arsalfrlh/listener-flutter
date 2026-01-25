@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+import 'package:toko/pages/audio_page.dart';
+import 'package:toko/pages/playlist_page.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: "Stream Builder",
+      home: PlaylistPage(),
+    );
+  }
+}
